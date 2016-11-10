@@ -19,7 +19,7 @@
         /*
          * Feature areas
          */
-
+        'todos'
     ]);
 
 })();

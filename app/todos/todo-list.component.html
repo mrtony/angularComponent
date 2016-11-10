@@ -1,0 +1,7 @@
+<ul class="list-group">
+  <div ng-repeat="todo in model.todos">
+    <li ng-if="todo.completed === false" class="list-group-item">
+      <todo-item todo="todo"></todo-item>
+    </li>
+  </div>
+</ul>

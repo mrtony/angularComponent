@@ -14,6 +14,14 @@
 
             model.title = "Hello component!";
 
+            model.todos = [
+                {completed: false,title: 'first todo title', description: 'first todo description',responsible: 'first todo responsible'},
+                {completed: false, title: 'second todo title', description: 'second todo description',responsible: 'second todo responsible'}
+            ];
+
+            model.changeTodoTitle = function() {
+                model.todo.title = 'change to new title' + new Date();
+            }
             model.$onChanges = function (changes) {
                 //bindings >, @有發生改變
             };
