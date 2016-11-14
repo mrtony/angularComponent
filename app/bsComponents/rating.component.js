@@ -9,6 +9,7 @@
         bindings: {
             "value": "<"
         },
+        transclude: true,
         controllerAs: "model",
         controller: function () {
             var model = this;
@@ -28,6 +29,7 @@
 
             model.$onInit = function () {
                 //初始化需要的資料
+                model.entries = new Array(model.value);
             };
 
             model.$onDestroy = function () {
