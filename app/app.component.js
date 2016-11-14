@@ -15,8 +15,8 @@
             model.title = "Hello component!";
 
             model.todos = [
-                {completed: false,title: 'first todo title', description: 'first todo description',responsible: 'first todo responsible'},
-                {completed: false, title: 'second todo title', description: 'second todo description',responsible: 'second todo responsible'}
+                {completed: false,title: 'first todo title', description: 'first todo description',responsible: 'first todo responsible', rating:3},
+                {completed: false, title: 'second todo title', description: 'second todo description',responsible: 'second todo responsible', rating: 4}
             ];
 
             model.changeTodoTitle = function() {

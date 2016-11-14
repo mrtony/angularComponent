@@ -19,7 +19,8 @@
         /*
          * Feature areas
          */
-        'todos'
+        'todos',
+        'bsComponents'
     ]);
 
 })();
