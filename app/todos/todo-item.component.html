@@ -12,8 +12,7 @@
         {{model.todo.description}}
     </div>
     <div class="col-md-4">
-        <rating value="model.todo.rating">
-            <span class="glyphicon glyphicon-star"></span>
+        <rating value="model.todo.rating" max="5" set-rating="model.setRating(model.todo, value)">
         </rating>
     </div>
 </div>

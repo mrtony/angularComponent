@@ -13,6 +13,10 @@
         controller: function () {
             var model = this;
 
+            model.setRating = function(todo, newRating) {
+                todo.rating = newRating;
+            }
+
             model.$onChanges = function (changes) {
                 //bindings >, @有發生改變
             };
