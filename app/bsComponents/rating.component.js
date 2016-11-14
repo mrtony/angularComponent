@@ -8,7 +8,8 @@
         templateUrl: "../app/bsComponents/rating.component.html",
         bindings: {
             "max": "<",
-            "value": "<"
+            "value": "<",
+            "setRating": "&"
         },
         controllerAs: "model",
         controller: function () {
