@@ -1,7 +1,11 @@
 <div class="panel panel-default">
     <div class="panel-heading">
-        <h4 class="title">{{model.heading}}</h4>
+        <h4 ng-click="model.select()" class="title">
+            <a>
+            {{model.heading}}
+            </a>
+        </h4>
     </div>
-    <div class="panel-body" ng-transclude>
+    <div ng-if="model.selected" class="panel-body" ng-transclude>
     </div>
 </div>
